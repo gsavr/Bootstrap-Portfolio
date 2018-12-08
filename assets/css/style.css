@@ -101,6 +101,11 @@ h2, h3 {
     color: #6C7A89;
 }
 
+.head-port {
+    padding-bottom: 20px;
+    color: #6C7A89;
+}
+
 #profile-pic {
     padding: 20px;
     float: left;
@@ -140,12 +145,12 @@ p {
    
 /* Container holding the image and the text in Portfolio page */
 .container-portfolio {
-    width: 400px;
+    /* width: 400px; */
     position: relative;
     text-align: center;
     color: white;
-    display: inline-block; /* use this for mozill instead of inline only */
-    margin-left: 45px;
+    /* display: inline-block; */ /* use this for mozill instead of inline only */
+    /* margin-left: 45px; */
 }
 
 .content-portfolio {    /* size of content in webpage and centering in browser */
@@ -154,7 +159,7 @@ p {
     margin: auto;
     background-color: #ffffff;
     border: 1px solid #aec5df;
-    padding-bottom: 50px;   
+    padding: 30px;   
 }
 
 .portfolio-desc {
