@@ -124,7 +124,7 @@ p {
 }
 
 .footer{
-    position: absolute; /* for about and contact page */
+    position: absolute; 
     bottom: 0;
     background-color: #6C7A89;
     color: white;
@@ -211,7 +211,7 @@ input {
       
   }
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .header-links{
       padding: 5px;
       background-color: #E0E7E9;}
@@ -220,4 +220,4 @@ input {
         margin-left: 0;
     }
       
-    }
+}
